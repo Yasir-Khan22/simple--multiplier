@@ -15,6 +15,7 @@ body {
     background: hsl(206, 97%, 61%);
     text-align: center;
     color: hsl(205, 84%, 22%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .form {
@@ -22,4 +23,36 @@ body {
     background: #fffffe;
     padding: 4rem;
     box-shadow: 0 4px 30px rgba(0, 0, 0, .4);
+    border-radius: 10px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid hsl(205, 84%, 22%);
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.input::placeholder {
+    color: hsl(205, 84%, 22%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 10px;
+    background: #3da9fc;
+    color: #fffffe;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 10px;
+
+
 }
