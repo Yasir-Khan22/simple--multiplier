@@ -19,7 +19,6 @@ body {
 }
 
 .form {
-    border: 2px solid green;
     background: #fffffe;
     padding: 4rem;
     box-shadow: 0 4px 30px rgba(0, 0, 0, .4);
