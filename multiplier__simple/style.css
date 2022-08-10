@@ -5,3 +5,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vmin;
+    background: hsl(206, 97%, 61%);
+    text-align: center;
+    color: hsl(205, 84%, 22%);
+}
+
+.form {
+    border: 2px solid green;
+    background: #fffffe;
+    padding: 4rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .4);
+}
