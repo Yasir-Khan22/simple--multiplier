@@ -5,14 +5,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    background: yellow;
-    text-align: center;
-}
-
-.box {
-    border: 2px solid red;
-    height: 100vh;
-    width: inherit;
-}
