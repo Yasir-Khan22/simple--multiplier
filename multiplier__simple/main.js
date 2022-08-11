@@ -1,0 +1,1 @@
+console.log("Mutipliyer in Javascript!")
